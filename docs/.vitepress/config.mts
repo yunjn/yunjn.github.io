@@ -30,25 +30,23 @@ export default defineConfig({
     // 首页右上角导航栏
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Blog', link: '/about' },
+      { text: 'Posts', link: '/about' },
       { text: 'Links', link: '/links' }
     ],
     // 文章左侧导航栏
     sidebar: [
       {
-        // text: 'Blog',
+        // text: 'test',
+        // collapsed: false,
         items: [
+          // { text: '', link: '' },
           { text: '本科毕设', link: '/posts/gd' },
           { text: 'Docker部署OpenWrt做旁路由', link: '/posts/docker-openwrt' },
           { text: 'WSL下RoboCup3D环境搭建', link: '/posts/robocup3d-wsl' },
           { text: 'Git基础', link: '/posts/git' },
         ]
       },
-      // {
-      //   text: '其他',
-      //   items: [
-      //   ]
-      // }
+
     ],
     // 文章底部导航栏的自定义配置，默认是英语
     docFooter: {
