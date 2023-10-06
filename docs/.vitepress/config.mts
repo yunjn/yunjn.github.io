@@ -16,7 +16,7 @@ export default defineConfig({
   // markdown显示行数
   markdown: {
     lineNumbers: true,
-    math: true
+    math: true,
   },
   // head设置
   head: [
@@ -25,6 +25,7 @@ export default defineConfig({
   ],
   // 主题设置
   themeConfig: {
+
     // 左上角logo
     logo: '/logo.png',
     // 首页右上角导航栏
@@ -36,17 +37,31 @@ export default defineConfig({
     // 文章左侧导航栏
     sidebar: [
       {
-        // text: 'test',
-        // collapsed: false,
+        // text: 'others',
+        // collapsed: true,
         items: [
           // { text: '', link: '' },
-          { text: '本科毕设', link: '/posts/gd' },
+          { text: 'c plus plus', link: '/posts/cc/cc' },
           { text: 'Docker部署OpenWrt做旁路由', link: '/posts/docker-openwrt' },
           { text: 'WSL下RoboCup3D环境搭建', link: '/posts/robocup3d-wsl' },
           { text: 'Git基础', link: '/posts/git' },
+
         ]
       },
-
+      // {
+      //   text: 'c plus plus',
+      //   collapsed: true,
+      //   items: [
+      //     { text: 'C++', link: '/posts/cc' },
+      //   ],
+      // },
+      // {
+      //   text: 'tools',
+      //   collapsed: true,
+      //   items: [
+      //     { text: 'Git基础', link: '/posts/git' },
+      //   ],
+      // },
     ],
     // 文章底部导航栏的自定义配置，默认是英语
     docFooter: {
