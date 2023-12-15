@@ -54,13 +54,6 @@ export default defineConfig({
 
         ]
       },
-      // {
-      //   text: 'tools',
-      //   collapsed: true,
-      //   items: [
-      //     { text: 'Git基础', link: '/posts/git' },
-      //   ],
-      // },
     ],
     // 文章底部导航栏的自定义配置，默认是英语
     docFooter: {

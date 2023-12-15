@@ -15,7 +15,7 @@ void* say_hello(void* args){
 
 ### 0x01 void* 是啥
 
-C/C++中，\*类型就是指针类型，如`int* p` ,`double* q`，这两虽然是不同的指针但是`sizeof(p) == sizeof(q)`，因为它们是同一种类型，\*类型。C/cpp是强类型语言，严格区分类型。至于不同，p++，q++就可看出。
+C/C++中，\*类型就是指针类型，如`int* p` ,`double* q`，这两虽然是不同的指针但是`sizeof(p) == sizeof(q)`，因为它们是同一种类型，\*类型。C/C++是强类型语言，严格区分类型。至于不同，p++，q++就可看出。
 
 <img src="../assets/void/01.png"  />
 
@@ -105,7 +105,7 @@ int *arr = (int*)malloc(sizeof(int));
 * 函数指针
 
 ```cpp
-void* (*)(void*); // // 无名的函数指针类型，参数void*，返回值void*
+void* (*)(void*); // 无名的函数指针类型，参数void*，返回值void*
 ```
 
    
